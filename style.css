@@ -1,0 +1,228 @@
+a {
+    text-decoration: none;
+}
+
+nav a {
+    color: #000000;
+    margin-left: 40px;
+}
+
+a:hover {
+    color: #008B8B;
+}
+
+.head-cont {
+    display: flex;
+    height: 82px;
+    justify-content: space-around;
+    color: #170C04;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.head-cont-item1 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.78px;
+    display: flex;
+    flex: 0 1 auto;
+}
+
+.logo {
+    padding: 31px 0px 0px 0px;
+}
+
+.label {
+    padding: 37px 0px 0px 0px;
+}
+
+.head-cont-item2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    display: flex;
+    flex: 0 1 auto;
+    word-spacing: 0px;
+    padding: 42px 0px 0px 0px;
+}
+
+
+
+.head-cont-item3 {
+    display: flex;
+    flex: 0 1 auto;
+    padding: 42px 0px 0px 0px;
+}
+
+.search,
+.cart,
+.lll {
+    padding: 0px 0px 0px 20px;
+}
+
+main {
+    height: 710px;
+    background: url(assets/Pug-puppy-standing-in-profile-on-a-white-background\ \(1\)\ 1.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.main-cont {
+    display: flex;
+
+}
+
+.fon {
+    height: 710px;
+    opacity: 50%;
+}
+
+.text-item {
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+    margin: 176px 0px 0px 95px;
+}
+
+
+.text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    line-height: 120px;
+}
+
+.buy {
+    width: 123px;
+    height: 48px;
+    background: #E27B3A;
+    border-radius: 24px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 45px 20px 0px 0px;
+}
+
+.details {
+    width: 139px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border: 1px solid #E27B3A;
+    border-radius: 24px;
+    color: #E27B3A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+.cont-item {
+    flex: 1 1 auto;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 0px 0px 0px 30px;
+
+}
+
+img {
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 37px;
+    color: #170C04;
+    padding: 10px;
+}
+
+.text-cont-item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+    color: #170C04;
+    opacity: 0.6;
+}
+
+.a-cont-item {
+    margin-bottom: 25px;
+}
+
+.a-cont-item a {
+    color: #E27B3A;
+}
+
+.footer-cont {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(assets/Rectangle\ 73.png);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    height: 364px;
+
+}
+
+.footer-cont-item1 a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.footer-cont-item3 a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.footer-cont-item1 {
+    flex: 1 1 auto;
+    align-self: center;
+    text-align: left;
+    padding-left: 179px;
+
+}
+
+.footer-cont-item2 {
+    flex: 1 1 auto;
+    align-self: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 26px;
+    line-height: 30px;
+
+}
+
+.footer-cont-item3 {
+    flex: 1 1 auto;
+    align-self: center;
+    text-align: right;
+    padding-right: 179px;
+
+}
+
+.rad-fb,
+.rad-c,
+.rad-tw {
+    background-image: url(assets/Ellipse\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline;
+    padding: 15px;
+}
+
+.footer-cont-item1,
+.footer-cont-item3,
+a:hover {
+    color: #008B8B;
+}
